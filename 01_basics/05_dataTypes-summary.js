@@ -36,3 +36,30 @@ const myFunction=function(){
 }
 
 console.log(typeof bigNumber)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Types of memory => Stack (use in Primitive dataTypes)  jo b hum ne variables declare kiye hn uski copy milty h
+// Heap(used in No Primitive dataTypes) jo jab b memory heap ke andr define hoti h Heap k andr to wahan original         reference milta h on changing it would be change in original value
+
+//Stack Example
+let user1="Hadi"
+let user2=user1
+user2="Abu Huraira"
+console.log(user1)
+console.log(user2)
+
+//Heap Example
+let userOne={
+email: "user@google.com",
+password:"admin@"
+}
+
+let userTwo=userOne
+
+userTwo.email="hurairaprince889@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
