@@ -47,8 +47,8 @@ console.log(typeof bigNumber)
 let user1="Hadi"
 let user2=user1
 user2="Abu Huraira"
-console.log(user1)
 console.log(user2)
+console.log(user1)
 
 //Heap Example
 let userOne={
@@ -60,6 +60,6 @@ let userTwo=userOne
 
 userTwo.email="hurairaprince889@gmail.com"
 
-console.log(userOne.email)
 console.log(userTwo.email)
+console.log(userOne.email)
 
